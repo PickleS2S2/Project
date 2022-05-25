@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>교촌치킨하단부</title>
+
+    <style>
+        .container
+        {
+            display: grid;
+            justify-items: stretch;
+            grid-template-rows: 180px 10px;
+            grid-template-columns: 200px 200px;
+            align-items: center;
+            justify-items: center;
+        }
+        a
+        {
+            text-decoration: none;
+            color: black;
+        }
+        dd
+        {
+            margin-left: -1px;
+        }
+        dt
+        {
+            font-weight: bold;
+        }
+
+        .hr
+        {
+            grid-row-start: 2;
+            grid-column-start:1;
+            grid-column-end: 6;
+            border: 1;
+            width: 125%;
+            
+            color: black;
+        }
+
+        /* 가맹점개설 */
+        .first_area
+        {
+            grid-area: 1/1/1/1;
+            
+        }
+
+        .mainBtn02
+        {
+            border: solid 2px black;
+            border-radius: 2px;
+            padding: 5px;
+            width: 80px;
+        }
+
+        /* 개설절차 */
+        .sec_area
+        {
+            grid-area: 1 2 1 1;
+        }
+
+        .sec_area a
+        {
+            position:absolute;
+            top: 65px;
+            left: 266px;
+        }
+
+        .fir_img
+        {
+            z-index: 1;
+            position:absolute;
+            left:210px;
+            top:50px;
+        }
+
+        /* 인테리어 */
+        .tre_area
+        {
+            grid-area: 1 3 1 1;
+        }
+
+        .tre_img
+        {
+            z-index: 1;
+            position: absolute;
+            left: 400px;
+            top:50px
+        }
+
+        .tre_area a
+        {
+            position:absolute;
+            top: 65px;
+            left: 455px;
+        }
+
+        /* 상담창구 */
+        .four_area
+        {
+            grid-area: 1 4 1 1;
+        }
+
+        .four_img
+        {
+            z-index: 1;
+            position: absolute;
+            left: 600px;
+            top:50px
+        }
+
+        .four_area a
+        {
+            position:absolute;
+            top: 65px;
+            left: 670px;
+        }
+
+        /* 큰 소셜 */
+        .Bigsocial
+        {
+            grid-area: 1 5 1 1;
+            position: absolute;
+            left: 950px;
+            top: 70px;
+        }
+
+        /* 작은 소셜 */
+        .smallFacebook
+        {
+            position: absolute;
+            left: 780px;
+            top: 200px;
+        }
+
+        .smallInstagram
+        {
+            position: absolute;
+            left: 810px;
+            top: 200px;
+        }
+
+        .smallYoutube
+        {
+            position: absolute;
+            left: 840px;
+            top: 200px;
+        }
+    
+        /* 전화주문 */
+        .call
+        {
+            position: absolute;
+            left: 870px;
+            top: 200px;
+        }
+
+        /* 가맹점 */
+        .store
+        {
+            position: absolute;
+            left: 1070px;
+            top: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="first_area"
+            <dl>
+                <dt>가맹점 개설 안내</dt>
+                <dd>교촌 F&B의 가족으로
+                    <br>
+                    모시고자 합니다.
+                </dd>
+                <br>
+            </dl>
+            <a href="http://www.kyochonfnb.com/franchise/about.asp" class="mainBtn02" target="_blank" title="새창열림">
+        자세히보기</a>
+        </div>
+
+        <div class="sec_area">
+            <span>
+                <img src="개설절차 icon.png" alt="개설절차" class="fir_img">
+                <a href="http://www.kyochonfnb.com/franchise/about02.asp"target="_blank" title="새창열림">
+                  <img src="개설절차Btn.PNG">
+                </a>
+            </span>
+        </div>
+
+        <div class="tre_area">
+            <span>
+            <img src="인테리어icon.png" alt="인테리어" class="tre_img">
+            <a href="http://www.kyochonfnb.com/franchise/about03.asp" target="_blank" title="새창열림">
+                <img src="인테리어Btn.png">
+            </a>
+            </span>
+        </div>
+
+        <div class="four_area">
+            <span>
+                <img src="상담창구 icon.png" alt="상담창구" class="four_img">
+                <a href="http://www.kyochonfnb.com/franchise/district.asp" target="_blank" title="새창열림">
+                    <img src="상담창구Btn.png">
+                </a>
+            </span>
+        </div>
+
+        
+
+        <div class="Bigsocial">
+            <a href="https://www.facebook.com/kyochon1991" target="_blank" title="새창열림">
+                <img src="Big_facebook.png" style="margin-right: 20px;">
+            </a>
+
+            <a href="https://www.instagram.com/accounts/login/?next=/kyochon_official/" target="_blank" title="새창열림">
+                <img src="Big_instagram.png" style="margin-right: 20px;">
+            </a>
+
+            <a href="https://www.youtube.com/channel/UChcWXp8uJbcfq9EAIHp_bUw" target="_blank" title="새창열림">
+                <img src="Big_youtube.png">
+            </a>
+        </div>
+        <hr class="hr">
+    </div>
+    <div>
+        <span style="margin-left: 20px ;">
+            <a href="http://www.kyochon.com/etc/clause.asp" target="_self">
+                이용약관 |
+            </a>
+            <a href="http://www.kyochon.com/etc/privacy.asp" target="_self" style="color: orange;">
+            개인정보처리방침</a>
+            <a href="http://www.kyochon.com/etc/cctv_privacy.asp" target="_self">
+                | 영상정보처리기기 운영관리 방침 
+            </a>
+
+            <a href="#">| 이메일 무단수집거부</a>
+
+            <a href="http://www.kyochon.com/etc/location.asp" target="_self">
+                | 찾아오시는길
+            </a>
+
+            <a class="smallFacebook" href="https://www.facebook.com/kyochon1991" target="_blank" title="새창열림">
+                <img src="social_facebook.gif">
+            </a>
+
+            <a class="smallInstagram" href="https://www.instagram.com/accounts/login/?next=/kyochon_official/" target="_blank" title="새창열림">
+                <img src="social_instagram.gif" style="margin-right: 20px;">
+            </a>
+
+            <a class="smallYoutube" href="https://www.youtube.com/channel/UChcWXp8uJbcfq9EAIHp_bUw" target="_blank" title="새창열림">
+                <img src="social_youtube.gif">
+            </a>
+
+            <img src="대표번호 icon.gif" class="call">
+
+            <a href="http://www.kyochonfnb.com/member/" target="_blank" title="새창열림">
+                <img src="가맹점 icon.gif" class="store">
+            </a>
+        </span>
+
+        <p>
+           <h6 style="color: gray;"> 
+                사업장소재지 : 39852 경상북도 칠곡군 가산면 송신로 78 | 
+                본사(오산교육원)주소 : 18150 경기도 오산시 동부대로 436번길 55-18 | 
+                상호명 : 교촌에프앤비(주) | 
+                대표이사 : 윤진호 <br>
+                대표번호 : 031-371-3500 | 
+                소비자상담번호 : 080-320-3000 | 
+                사업자등록번호 : 513-81-16574 | 
+                통신판매업신고 : 2012-경상북도칠곡-00023호 | 
+                개인정보보호책임자 : 김명식 | 
+                영업시간 : 12:00~23:30
+                <br>Copyright 2015 © KYOCHON F&B. All rights reserved.
+            </h6>
+        
+    </div>
+    
+
+
+</body>
+</html>
